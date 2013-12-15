@@ -14,7 +14,7 @@ bot.on('response', function(pic, txt){
   console.log('Sent', txt);
 });
 
-bot.on('response', function(msg){
+bot.on('message', function(msg){
   console.log('Somebody said', msg.message);
 });
 
