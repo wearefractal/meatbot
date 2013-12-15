@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/wearefractal/meatbot.png?branch=master)](https://travis-ci.org/wearefractal/meatbot)
-
 [![NPM version](https://badge.fury.io/js/meatbot.png)](http://badge.fury.io/js/meatbot)
 
 ## Information

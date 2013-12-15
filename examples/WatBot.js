@@ -1,6 +1,6 @@
 var util = require('util');
+var MeatBot = require('meatbot');
 
-var MeatBot = require('../');
 var watfile = require('./wat');
 
 function WatBot() {
