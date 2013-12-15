@@ -1,0 +1,23 @@
+{
+  "name": "meatbot",
+  "description": "Meatspace bot framework",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/meatbot",
+  "repository": "git://github.com/wearefractal/meatbot.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "request": "~2.30.0",
+    "cheerio": "~0.12.4",
+    "socket.io-client": "~0.9.16"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/meatbot/raw/master/LICENSE"
+    }
+  ]
+}
