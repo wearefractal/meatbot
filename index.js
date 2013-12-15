@@ -8,7 +8,7 @@ var cheerio = require('cheerio');
 
 var clockDrift = 30000;
 var defaultMeats = "https://chat.meatspac.es";
-var defaultMessage = "My authot gave me nothing to say";
+var defaultMessage = "My author gave me nothing to say";
 
 function Bot() {
   EventEmitter.call(this);
