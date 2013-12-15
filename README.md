@@ -18,12 +18,6 @@
 </tr>
 </table>
 
-## Usage
-
-```javascript
-EXAMPLEHERE
-```
-
 ## Examples
 
 You can view more examples in the [example folder.](https://github.com/wearefractal/meatbot/tree/master/examples)
