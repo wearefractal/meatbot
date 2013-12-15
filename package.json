@@ -1,7 +1,7 @@
 {
   "name": "meatbot",
   "description": "Meatspace bot framework",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/wearefractal/meatbot",
   "repository": "git://github.com/wearefractal/meatbot.git",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
