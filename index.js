@@ -33,7 +33,12 @@ Bot.prototype.connect = function(host) {
 };
 
 Bot.prototype.getAvatar = function(cb) {
-  cb(null, this.avatar);
+  if (typeof this.avatar === 'string') {
+    return cb(null, this.avatar);
+  }
+  if (Array.isArray(this.avatar)) {
+    return cb(null, this.avatar[Math.floor(Math.random()*this.avatar.length)]);
+  }
 };
 
 Bot.prototype.getResponse = function(msg, cb) {
